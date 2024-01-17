@@ -14,8 +14,8 @@ class Program
         Task<int> additionTask = AddNumbersAsync(1, 3000);
 
 
-        string filePath1 = "C:\\Users\\basti\\source\\repos\\Evaluation\\Evaluation\\Eval_file1.txt";
-        string filePath2 = "C:\\Users\\basti\\source\\repos\\Evaluation\\Evaluation\\Eval_file2.txt";
+        string filePath1 = "Eval_file1.txt";
+        string filePath2 = "Eval_file2.txt";
 
         Task<int> countWordsFile1 = CountWords(filePath1);
         Task<int> countWordsFile2 = CountWords(filePath2);
